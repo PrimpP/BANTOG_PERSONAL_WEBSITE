@@ -1,0 +1,107 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-style: oblique;
+    background-color: grey;
+    color:aqua;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    text-shadow: 5px 5px 6px green;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+   text-align: center;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: #FC766AFF;
+   text-shadow: 5px 5px 6px #5B84B1FF;
+
+}
+ 
+header{
+    background-image: url(../Media/homePageBackground.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#navigate1{
+    float: right;
+    margin-top: 25px;
+}
+
+#navigate2{
+    float: right;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#FFF;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #FFF;
+    color: #000;
+} 
+
+.top1{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 375px;
+}
+
+.top1:hover{
+    background-color:#FFF;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Media/AboutMeBackBodyIMG.jpg);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 27px;
+}
+
+p{
+    margin: 70px;
+    text-align: justify;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    opacity: 0.75;
+    float: left;
+    border-radius: 25px;
+    border: 4px ridge blue;
+    margin:60px 20px 0% 50px;
+}
+
+img:hover{
+    opacity: 1;
+    border: 5px dotted;
+    border-radius: 50px;
+    border-color: yellow;
+}

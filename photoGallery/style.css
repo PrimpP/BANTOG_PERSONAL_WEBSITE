@@ -1,0 +1,81 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    font-style: oblique;
+    background-color: grey;
+    color:aqua;
+    text-transform: uppercase;
+    word-spacing: 20px;
+    text-shadow: 5px 5px 6px green;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: royalblue;
+    font-family: Georgia;
+}
+
+header{
+    background-image: url(../Media/homePageBackground.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Media/AboutMeBackBodyIMG.jpg);
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 27px;
+}
+
+ul{
+    float: right;
+    margin-top: 25px;
+}
+
+li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color:#FFF;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #FFF;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #FFF;
+    color: #000;
+} 
+
+img{
+    width: 200px;
+    height: 220px;
+    opacity: 0.75;
+    margin: 20px;
+    border-radius: 25px;
+    border: 4px ridge yellowgreen;
+}
+
+img:hover{
+    opacity: 1;
+    border: 5px double;
+    border-radius: 50px;
+    box-shadow: 5px 5px 6px 3px red;
+}
+
+.photos{
+    margin-left: 100px;
+}
